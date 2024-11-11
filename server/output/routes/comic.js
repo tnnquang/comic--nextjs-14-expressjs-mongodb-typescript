@@ -1,0 +1,21 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const comic_1 = require("../controller/comic");
+const router = express_1.default.Router();
+router.post("/slug", comic_1.getComicBySlug);
+router.get("/category-one", comic_1.findOneCategory);
+router.post("/filter", comic_1.getComicByFilter);
+router.get("/category-client", comic_1.getAllCategoryClient);
+router.post("/comic-of-list-category", comic_1.getComicsFromListCategory);
+router.post("/list-highest-views-daily", comic_1.top10ComicsDaily);
+router.post("/list-highest-views-weekly", comic_1.top10ComicsWeekly);
+router.post("/list-highest-views-monthly", comic_1.top10ComicsMonthly);
+router.post("/update-chapter-view", comic_1.updateChapterView);
+router.post("/new-post", comic_1.getTop24NewPost);
+router.post("/all-slug", comic_1.getAllSlug);
+router.get("/total-page-from-limit", comic_1.getTotalPageFromLimit);
+module.exports = router;

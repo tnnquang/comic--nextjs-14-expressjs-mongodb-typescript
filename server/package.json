@@ -1,0 +1,50 @@
+{
+  "name": "truyentranh-server",
+  "version": "1.0.0",
+  "description": "This is a backend of truyện tranh website. Data from otruyen",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "start": "node output/index.js",
+    "lint:fix": "eslint --fix ./*.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "truyen",
+    "tranh",
+    "bkaweb",
+    "story",
+    "book",
+    "comics"
+  ],
+  "author": "BKAWEB",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.4.2",
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.3",
+    "sharp": "^0.33.5"
+  }
+}

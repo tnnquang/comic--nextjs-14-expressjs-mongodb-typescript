@@ -1,0 +1,19 @@
+{
+  "api": {
+    "production": "https://api.nghientruyen.tv",
+    "devlopment": "http://localhost:6789"
+  },
+  "frontend": {
+    "production": "https://nghientruyen.tv",
+    "devlopment": "http://locahost:6522"
+  },
+  "image": {
+    "production": "https://cdn.cayphim.tv/nghientruyen",
+    "devlopment": "http://localhost:6789"
+  },
+  "ads": {
+    "production": "https://bakads.live/api/v1/ads/list",
+    "devlopment": "https://bakads.live/api/v1/ads/list"
+  },
+  "baseUrlNoProtocol": "biahoi.live"
+}

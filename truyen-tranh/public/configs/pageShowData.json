@@ -1,0 +1,30 @@
+[
+  {
+    "page": "Home",
+    "slug": "/",
+    "maxShow": 2,
+    "listItemWillBeDisplayed": [
+      {
+        "title": "Xuyên Không",
+        "categoryPath": "xuyen-khong",
+        "categoryName": [
+          "Xuyên Không"
+        ]
+      },
+      {
+        "title": "Manhua (Truyện tranh Trung Quốc)",
+        "categoryPath": "manhua",
+        "categoryName": [
+          "Manhua"
+        ]
+      },
+      {
+        "title": "Ngôn Tình",
+        "categoryPath": "ngon-tinh",
+        "categoryName": [
+          "Ngôn Tình"
+        ]
+      }
+    ]
+  }
+]
